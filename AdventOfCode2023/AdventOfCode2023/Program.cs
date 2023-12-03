@@ -2,7 +2,7 @@
 using AdventOfCode2023;
 using Microsoft.VisualBasic;
 
-Day1.Day1Execute();
+Day2.Day2Execute();
 
 
 
