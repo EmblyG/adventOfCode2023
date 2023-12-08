@@ -16,9 +16,7 @@ public class Day4
             var matches = elfNumbers.Count(number => winners.Contains(number));
             if (matches > 0)
                 sum += Math.Pow(2,matches-1);
-
         }
-        
         Console.WriteLine(sum);
     }
     
@@ -48,7 +46,6 @@ public class Day4
                 }
             }
         }
-
         Console.WriteLine(sum);
     }
 }
